@@ -21,9 +21,6 @@ class m160622_085710_create_ImageManager_table extends Migration
 			'modified' => $this->datetime(),
         ]);
 		
-		//ImageManager: alter id column
-		$this->alterColumn('{{%ImageManager}}', 'id', 'INT(10) UNSIGNED NOT NULL AUTO_INCREMENT');
-
     }
 
     /**
